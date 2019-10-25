@@ -1,14 +1,11 @@
 {
   "name": "@ryanburnette/get-taf",
-  "version": "1.0.0",
-  "description": "Get a TAF as an object from AviationWeather.gov.",
+  "version": "1.1.0",
+  "description": "Scrape TAF from AviationWeather.gov.",
   "main": "index.js",
-  "scripts": {
-    "demo": "node demo.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://code.ryanburnette.com/ryanburnette/get-taf.git"
+    "url": "https://github.com/ryanburnette/get-taf"
   },
   "contributors": [
     "Ryan Burnette <ryan.burnette@gmail.com> (https://ryanburnette.com)",
@@ -20,6 +17,9 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
-    "eyes": "^0.1.8"
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

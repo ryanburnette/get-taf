@@ -1,13 +1,6 @@
-# @ryanburnette/get-taf
+# [get-taf](https://github.com/ryanburnette/get-taf)
 
-Get a TAF as an object from AviationWeather.gov.
+[![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://github.com/ryanburnette/get-taf)
+[![npm](https://img.shields.io/badge/package-NPM-green.svg?style=flat-square)](https://www.npmjs.com/package/@ryanburnette/get-taf)
 
-## Usage
-
-```js
-var getTaf = require('@ryanburnette/get-taf');
-
-getTaf('KATL').then(function(taf) {
-  console.log(taf);
-});
-```
+Scrape TAF from AviationWeather.gov. See `demo.js` for usage.
