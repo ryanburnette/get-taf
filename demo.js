@@ -1,8 +1,8 @@
 'use strict';
 
 var getTaf = require('./index.js');
-var inspect = require('eyes').inspector({ maxLength: false });
 
 (async function () {
-  inspect(await getTaf('KSRQ'));
+  var taf = await getTaf(process.argv[2] || 'KSRQ');
+  console.log(JSON.stringify(taf));
 })();
